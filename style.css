@@ -1,0 +1,217 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #d43535;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	font-size: 12pt;
+	line-height: 1.75em;
+	font-family: Verdana, sans-serif;
+	background: #030707 url('images/bg.jpg');
+	color: #c0c1c1;
+}
+
+br.clear {
+	clear: both;
+}
+
+h2,h3,h4 {
+	margin-bottom: 1em;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+img.left {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+img.top {
+	margin: 5px 0 20px 0;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	margin-bottom: 1.5em;
+}
+
+.imageList {
+	list-style: none;
+}
+
+.imageList li {
+	clear: both;
+}
+	
+#bg {
+	background: url('images/shadow.png') top left repeat-x;
+	padding: 60px 0 80px 0;
+}
+
+#banner {
+	position: relative;
+	padding: 30px;
+	height: 200px;
+	width: 1120px;
+	margin: 0px 0 0 0;
+	background: #ffffff;
+}
+
+#box1 {
+	margin: 0px 0 25px 0;
+	overflow: hidden;
+}
+
+
+#content {
+	width: 1120px;
+	margin: 0px 0 0 0px;
+	padding: 30px;
+	background: #ffffff;
+}
+
+#copyright {
+	margin: 40px 0 0 0;
+	text-align: center;
+	color: #707070;
+	font-size: 0.9em;
+}
+
+#copyright a {
+	color: #888888;
+}
+
+
+
+#header {
+	position: relative;
+	padding: 100px;
+	height: 40px;
+	width: 1120px;
+}
+
+#logo {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	height: 80px;
+	line-height: 10px;
+	letter-spacing: -1px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#logo h1 {
+	font-size: 2.75em;
+	font-family: Verdana, sans-serif;
+}
+
+#main {
+	position: relative;
+	padding: 0px;
+	margin: 30px 0 0 0;
+	width: 1180px;
+	color: #6b6b6b;
+}
+
+#main a {
+	color: #262626;
+}
+
+#main strong {
+	color: #404040;
+}
+
+#main h2, #main h3, #main h4 {
+	color: #141414;
+}
+
+#main ul {
+	list-style: none;
+}
+
+#main ul li {
+	padding: 10px 0 10px 0;
+	border-top: dashed 1px #bfbfbf;
+}
+
+#main ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+	
+#outer {
+	position: relative;
+	width: 1180px;
+	margin: 0 auto;
+}
+
+
+
+#nav7, #nav7 ul, #nav7 li {
+  margin: 0;
+  padding: 0;
+}
+#nav7, #nav7 ul {
+  background: rgb(46,95,122);
+}
+#nav7 { /* подменю перемещается относительно меню */
+  position: relative;
+  display: table;
+  width: 100%;
+}
+#nav7 ul { /* подменю находится вне потока */
+  position: absolute;
+  z-index: 5;
+  display: none;
+}
+#nav7 li:hover ul { /* подменю будет показано, если курсор наведён на пункт меню с выпадающем списком */
+  display: block;
+}
+#nav7 li {
+  display: table-cell;
+  text-align: center;
+}
+#nav7 ul li {
+  display: block;
+  text-align: left;
+}
+#nav7 .right { /* последнее подменю будет расширяться справа налево */
+  direction: rtl;
+}
+#nav7 .right ul { 
+  right: 0;
+}
+#nav7 .right li { /* последнее подменю будет расширяться справа налево, но не пункты последнего подменю */
+  direction: ltr;
+}
+#nav7 a {
+  display: block;
+  padding: 3px 0;
+  color: #fff;
+  text-decoration: none;
+}
+#nav7 ul a {
+  padding: 3px 15px;
+}
+#nav7 li:hover {
+  background: rgb(96,145,172);
+}
