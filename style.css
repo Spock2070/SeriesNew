@@ -31,9 +31,9 @@ h2,h3,h4 {
 	font-family: Verdana, sans-serif;
 	color: #ffffff;
 }
+
 #ver {
 	color: white;
-	
 	margin-top: -60;
 	margin-left: 50%
 }
@@ -52,6 +52,7 @@ img.top {
 }
 
 p {
+    text-indent: 20px;
 	margin-bottom: 1.5em;
 }
 
@@ -70,7 +71,7 @@ ul {
 	padding: 30px;
 	height: 200px;
 	width: 1120px;
-	margin: 0px 50px 30px 0px; /* почему то не сдвигается вправо*/
+	margin: 0px 50px 30px 0px; 
 	background: #ffffff;
 }
 #content {
@@ -195,5 +196,8 @@ ul {
   padding: 3px 15px;
 }
 #nav7 li:hover {
-  background: rgb(96,145,172);
+  background: #6091ac;
+}
+dfn { background-color: #8cb6d4;
+
 }
