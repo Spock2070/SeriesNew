@@ -32,6 +32,7 @@ h2,h3,h4 {
 	color: #ffffff;
 }
 
+
 #ver {
 	color: white;
 	margin-top: -60;
@@ -80,12 +81,14 @@ ul {
 	padding: 30px;
 	background: #ffffff;
 }
+
 #header {
 	position: relative;
 	padding: 100px 0px;
 	height: 250px;
 	width: 1120px;
 }
+
 
 #logo {
 	position: absolute;
@@ -118,27 +121,26 @@ ul {
 	color: #262626;
 }
 
+
 #main strong {
 	color: #404040;
+	
+}
+#main em { background-color: #8cb6d4;
+
 }
 
 #main h2, #main h3, #main h4 {
 	color: #141414;
 }
 
-#main ul {
-	list-style: none;
-}
+
 
 #main ul li {
-	padding: 10px 0 10px 0;
-	border-top: dashed 1px #bfbfbf;
+	padding: 5px 0 5px 0;
+	left: 20px;
 }
 
-#main ul li.first {
-	padding-top: 0;
-	border-top: 0;
-}
 
 	
 #outer {
@@ -197,7 +199,4 @@ ul {
 }
 #nav7 li:hover {
   background: #6091ac;
-}
-dfn { background-color: #8cb6d4;
-
 }
