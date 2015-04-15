@@ -116,7 +116,13 @@ ul {
 	width: 1120px;
 	color: #6b6b6b;
 }
-
+#toTop { 
+position: fixed; 
+bottom: 20px; 
+right: 5px; 
+background: none;
+width: 5%; 
+}
 #main a {
 	color: #262626;
 }
@@ -124,9 +130,17 @@ ul {
 
 #main strong {
 	color: #404040;
+    background-color: #b1cde0	
 	
 }
-#main em { background-color: #8cb6d4;
+
+#main cite {
+	color: #404040;	
+}
+
+
+
+#main dfn { background-color: #b1cde0;
 
 }
 
@@ -138,7 +152,11 @@ ul {
 
 #main ul li {
 	padding: 5px 0 5px 0;
-	left: 20px;
+	margin-left: 50px;
+}
+#main ol li {
+	padding: 5px 0 5px 0;
+	margin-left: 50px;
 }
 
 
