@@ -33,12 +33,6 @@ h2,h3,h4 {
 }
 
 
-#ver {
-	color: white;
-	margin-top: -60;
-	margin-left: 50%
-}
-
 img.left {
 	float: left;
 	margin: 5px 20px 20px 0;
@@ -56,11 +50,18 @@ p {
     text-indent: 20px;
 	margin-bottom: 1.5em;
 }
+p.about {
+    text-indent: 0px;
+	margin-bottom: 1.5em;
+}
 
 ul {
 	margin-bottom: 1.5em;
 }
-
+td {
+    padding: 10px; /* Поля в ячейках */ 
+	color: black;
+   }
 	
 #bg {
 	background: url('images/shadow.png') top left repeat-x;
