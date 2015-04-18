@@ -32,20 +32,51 @@ h2,h3,h4 {
 	color: #ffffff;
 }
 
-
-img.left {
+img.left { -moz-user-select: none; user-select: none;
 	float: left;
 	margin: 5px 20px 20px 0;
+	
 }
-img.right {
+img.right {  -moz-user-select: none; user-select: none;
 	float: right;
 	margin: 5px 0px 20px 20px;
 }
 
-img.top {
+
+
+img.left:hover {position: fixed;
+z-index: 10;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);
+width: auto;
+height: auto;
+max-width: 100%;
+max-height: 100%;
+border: solid rgba(210,210,210,.4);
+border-width: 100vh 100vw;}
+
+img.right:hover {position: fixed;
+z-index: 10;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);
+width: auto;
+height: auto;
+max-width: 100%;
+max-height: 100%;
+border: solid rgba(210,210,210,.4);
+border-width: 100vh 100vw;}
+:not(:active) > img.right:not(:hover), img.right:active {pointer-events: none;}
+:not(:active) > img.left:not(:hover), img.left:active {pointer-events: none;}
+
+img.top { -moz-user-select: none; user-select: none;
 	margin: 5px 0 20px 0;
 }
 
+
+iframe { margin: auto;
+}
 p {
     text-indent: 20px;
 	margin-bottom: 1.5em;
@@ -61,6 +92,8 @@ ul {
 td {
     padding: 10px; /* Поля в ячейках */ 
 	color: black;
+	vertical-align: middle;
+	
    }
 	
 #bg {
@@ -174,7 +207,7 @@ width: 5%;
   padding: 0;
 }
 #nav7, #nav7 ul {
-  background: rgb(46,95,122);
+  background: #18586c;
 }
 #nav7 { /* подменю перемещается относительно меню */
   position: relative;
