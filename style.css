@@ -74,7 +74,6 @@ img.top { -moz-user-select: none; user-select: none;
 	margin: 5px 0 20px 0;
 }
 
-
 iframe { margin: auto;
 }
 p {
@@ -156,6 +155,7 @@ bottom: 20px;
 right: 5px; 
 background: none;
 width: 5%; 
+opacity: 0.2
 }
 #main a {
 	color: #262626;
